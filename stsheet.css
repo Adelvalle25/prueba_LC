@@ -1,0 +1,14 @@
+input[type="text" ]{
+    font-size: 10%;
+
+}
+input{
+    color: red;
+}
+body::selection{
+    color:red;
+    background-color:yellow;
+}
+P{
+    font-size: 25px;
+}
