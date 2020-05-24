@@ -1,14 +1,25 @@
-input[type="text" ]{
-    font-size: 10%;
+input[type="text"] {
+  font-size: 10%;
+}
+input {
+  color: red;
+}
+p::selection {
+  color: red;
+  background-color: yellow;
+}
+P {
+  font-size: 25px;
+}
 
+@media (min-width: 1000px) {
+  body {
+    background-color: yellow;
+  }
 }
-input{
-    color: red;
-}
-p::selection{
-    color:red;
-    background-color:yellow;
-}
-P{
-    font-size: 25px;
+
+@media (max-width: 999px) {
+  body {
+    background-color: turquoise;
+  }
 }
