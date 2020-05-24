@@ -5,7 +5,7 @@ input[type="text" ]{
 input{
     color: red;
 }
-body::selection{
+p::selection{
     color:red;
     background-color:yellow;
 }
