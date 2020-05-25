@@ -1,3 +1,2 @@
 # prueba_LC
-prueba de ingresar un cambio a git desde windows
-probar un cambio en pull
+https://adelvalle25.github.io/prueba_LC/hello.htmls
