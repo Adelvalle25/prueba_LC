@@ -1,32 +1,71 @@
 <html>
   <div class="fondo">
-  <head>
-    <title>my web page</title>
-  </head>
-  <meta name="viewport" content="whith=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="stsheet.css" />
+    <head>
+      <title>my web page</title>
+    </head>
+    <meta name="viewport" content="whith=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stsheet.css" />
 
-  <body>
-    <h1></h1>
+    <body>
+      <h1></h1>
 
-    <p>prueba de ramaz en git nuevaRama trabaja</p>
-    <p>THIS PARAGRAPH</p>
+      <p>prueba de ramaz en git nuevaRama trabaja</p>
+      <p>THIS PARAGRAPH</p>
 
-    <a href="hello1.html">"click </a>
+      <button
+        type="button"
+        class="btn btn-secondary"
+        data-toggle="tooltip"
+        data-placement="top"
+        title="nueva pagina"
+      >
+      <a href="hello1.html">nueva </a>
+      </button>
+      
 
-    <form>
-      <input name="nombre" type="text" />
-      <input name="Apellido" type="password" />
-    </form>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
 
-    <div class="hola1">
-      <div class="hol1">1</div>
-      <div class="hol1">2</div>
-      <div class="hol1">3</div>
-      <div class="hol1">1</div>
-      <div class="hol1">2</div>
-      <div class="hol1">3</div>
-    </div>
-  </body>
-</div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">contraseña</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+
+          <label class="form-check-label" for="exampleCheck1">recuerdame</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+      <div class="hola1">
+        <div class="hol1">1</div>
+        <div class="hol1">2</div>
+        <div class="hol1">3</div>
+        <div class="hol1">1</div>
+        <div class="hol1">2</div>
+        <div class="hol1">3</div>
+      </div>
+    </body>
+  </div>
 </html>
