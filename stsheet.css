@@ -1,7 +1,7 @@
 @media (min-width: 300px) {
-  body {
-    background-color: yellow;
-  }
+    body{
+        background-image: url("fondo_g.jpg");
+    }
   input[type="text"] {
     font-size: 10%;
   }
@@ -15,14 +15,28 @@
   P {
     font-size: 25px;
   }
-  h1::before{
-      content: "hola computadoras ";
+  h1::before {
+    content: "hola computadoras ";
   }
+  .hola1 {
+  background-color: blue;
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto;
+}
+.hol1 {
+  background-color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
 }
 
 @media (max-width: 599px) {
   body {
-    background-color: turquoise;
+    background-image: url("fondo_p.jpg");
   }
   p {
     font-size: 150%;
@@ -30,14 +44,28 @@
   input {
     font-size: 150%;
   }
-  a{
-     font-size: 150%;
+  a {
+    font-size: 150%;
   }
   input[type="text"] {
     font-size: 150%;
   }
-  h1::before{
-      content: "hola!";
+  h1::before {
+    content: "hola!";
   }
-
+  .hola1 {
+  background-color: orangered;
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto;
 }
+.hol1 {
+  background-color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+}
+
