@@ -1,25 +1,43 @@
-input[type="text"] {
-  font-size: 10%;
-}
-input {
-  color: red;
-}
-p::selection {
-  color: red;
-  background-color: yellow;
-}
-P {
-  font-size: 25px;
-}
-
-@media (min-width: 1000px) {
+@media (min-width: 300px) {
   body {
     background-color: yellow;
   }
+  input[type="text"] {
+    font-size: 10%;
+  }
+  input {
+    color: red;
+  }
+  p::selection {
+    color: red;
+    background-color: yellow;
+  }
+  P {
+    font-size: 25px;
+  }
+  h1::before{
+      content: "hola computadoras ";
+  }
 }
 
-@media (max-width: 999px) {
+@media (max-width: 599px) {
   body {
     background-color: turquoise;
   }
+  p {
+    font-size: 150%;
+  }
+  input {
+    font-size: 150%;
+  }
+  a{
+     font-size: 150%;
+  }
+  input[type="text"] {
+    font-size: 150%;
+  }
+  h1::before{
+      content: "hola!";
+  }
+
 }
